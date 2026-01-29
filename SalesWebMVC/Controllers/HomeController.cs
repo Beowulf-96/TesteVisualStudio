@@ -15,6 +15,7 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Mensagem"] = "Ola como estas?";
             return View();
         }
 
